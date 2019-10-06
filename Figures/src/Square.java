@@ -6,5 +6,7 @@ public class Square {
         width = _width;
         dimension= _dimension;
     }
-
+     public double squareArea() {
+        return Math.pow(width, 2);
+    }
 }

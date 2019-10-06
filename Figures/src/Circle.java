@@ -6,4 +6,8 @@ public class Circle {
         radius = _radius;
         dimension = _dimension;
     }
+
+    public double circleArea() {
+        return Math.PI * (Math.pow(radius, 2));
+    }
 }

@@ -10,5 +10,7 @@ public class Triangle {
         side3 = _side3;
         dimension = _dimension;
     }
-
+    public double trianglePerimeter() {
+        return side1 + side2 + side3;
+    }
 }
