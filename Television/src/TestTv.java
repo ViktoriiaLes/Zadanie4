@@ -1,12 +1,12 @@
 public class TestTv {
     public static void main(String[] args) {
-        Televison televison = new Televison();
-        televison.showStatus();
+        Television television = new Television();
+        television.showStatus();
 
-        televison.turnOn();
-        televison.showStatus();
+        television.turnOn();
+        television.showStatus();
 
-        televison.turnOff();
-        televison.showStatus();
+        television.turnOff();
+        television.showStatus();
     }
 }
