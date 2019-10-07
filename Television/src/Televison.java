@@ -1,17 +1,16 @@
-public class Televison {
-    boolean turnedOnOff;
+public class Television {
+    boolean state;
     // true - TV is turned On, false - turned Off;
 
     public void turnOn() {
-        turnedOnOff = true;
+        state = true;
     }
 
     public void turnOff() {
-        turnedOnOff = false;
-
+        state = false;
     }
 
     public void showStatus() {
-        System.out.println("Television in turned on:" + turnedOnOff);
+        System.out.println("Television in turned on:" + state);
     }
 }
